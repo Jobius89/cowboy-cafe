@@ -4,10 +4,11 @@ using System.Text;
 
 namespace CowboyCafe.Data
 {
+    /// <summary>
+    /// Class for the Jerked Soda Drink
+    /// </summary>
     public class JerkedSoda : Drink
     {
-
-
         /// <summary>
         /// Whether or not to add ice
         /// </summary>

@@ -4,9 +4,11 @@ using System.Text;
 
 namespace CowboyCafe.Data
 {
+    /// <summary>
+    /// Class for the Texas Tea Drink
+    /// </summary>
     public class TexasTea : Drink
     {
-
         /// <summary>
         /// Whether or not to add ice
         /// </summary>
