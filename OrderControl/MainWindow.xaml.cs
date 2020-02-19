@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using CowboyCafe.Data;
 
-namespace OrderControl
+namespace PointOfSale
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,12 +24,8 @@ namespace OrderControl
         public MainWindow()
         {
             InitializeComponent();
-            AddCowpokeChiliButton.Click += OnAddCowpokeChiliButtonClicked;
+
         }
 
-        void OnAddCowpokeChiliButtonClicked(object sender, RoutedEventArgs e)
-        {
-            OrderListView.Items.Add(new CowpokeChili());
-        }
     }
 }

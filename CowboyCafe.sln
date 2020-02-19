@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		..\..\..\Desktop\UML_Diagram.pdf = ..\..\..\Desktop\UML_Diagram.pdf
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderControl", "OrderControl\OrderControl.csproj", "{38EFF61F-EFD8-42D8-AEE0-5B23B2893E77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale", "OrderControl\PointOfSale.csproj", "{38EFF61F-EFD8-42D8-AEE0-5B23B2893E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

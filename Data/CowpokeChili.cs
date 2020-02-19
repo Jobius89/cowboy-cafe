@@ -87,6 +87,15 @@ namespace CowboyCafe.Data
                 return instructions;
             }
         }
+
+        /// <summary>
+        /// String Representation for the food item
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return "Cowpoke Chili";
+        }
     }
 
 }

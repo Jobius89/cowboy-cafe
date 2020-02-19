@@ -10,8 +10,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CowboyCafe.Data;
 
-namespace OrderControl
+namespace PointOfSale
 {
     /// <summary>
     /// Interaction logic for OrderControl.xaml
@@ -21,6 +22,12 @@ namespace OrderControl
         public OrderControl()
         {
             InitializeComponent();
+            
+        }
+
+        private void AddCowpokeChiliButton_Click(object sender, RoutedEventArgs e)
+        {
+            OrderListView.Items.Add(new CowpokeChili());
         }
     }
 }
