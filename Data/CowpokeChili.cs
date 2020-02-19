@@ -91,7 +91,7 @@ namespace CowboyCafe.Data
         /// <summary>
         /// String Representation for the food item
         /// </summary>
-        /// <returns></returns>
+        /// <returns>string of food item</returns>
         public override string ToString()
         {
             return "Cowpoke Chili";
