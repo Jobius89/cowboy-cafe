@@ -63,7 +63,7 @@ namespace CowboyCafe.Data
         /// <returns>string of food item</returns>
         public override string ToString()
         {
-            return this.Size + " Baked Beans";
+            return this.Size + " Chili Cheese Fries";
         }
     }
 }

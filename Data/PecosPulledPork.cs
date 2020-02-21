@@ -70,7 +70,7 @@ namespace CowboyCafe.Data
         /// <returns>string of food item</returns>
         public override string ToString()
         {
-            return "Baked Beans";
+            return "Pecos Pulled Pork";
         }
     }
 }
